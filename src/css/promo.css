@@ -1,0 +1,195 @@
+/* @iыmport url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap'); */
+@import url('/src/font/poppins.css');
+
+.promo {
+  height: 800px;
+  max-width: 1920px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 200px;
+  background-image: url('/src/img/Background.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.overplay {
+  position: absolute;
+  display: none;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.75);
+  z-index: 10;
+}
+
+.social {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  transform: rotate(90deg);
+  position: relative;
+}
+
+.promo__menu {
+  display: none;
+  width: 345px;
+  flex-direction: column;
+  background-color: #ffa501;
+  z-index: 100;
+}
+
+.social__title {
+  display: inline-block;
+  font-family: 'Poppins';
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0em;
+  transform: rotate(180deg);
+}
+
+.social__line {
+  width: 70px;
+  height: 2px;
+  background-color: #000;
+}
+
+.social__icon {
+  width: 20px;
+  height: 20px;
+  transform: rotate(270deg);
+}
+
+.facebook {
+  transform: rotate(-90deg);
+}
+
+.menu__close-button {
+  display: flex;
+  justify-content: flex-end;
+  padding: 25px 25px 0px 0px;
+}
+
+.menu__items {
+  display: flex;
+  flex-direction: column;
+  margin-left: 40px;
+  gap: 15px;
+}
+
+.menu__item {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.ellipse {
+  width: 15px;
+  height: 15px;
+  background: #ffa501;
+  border: 1px solid black;
+  border-radius: 50%;
+}
+
+.menu__item-title {
+  font-family: 'Poppins';
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 36px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: rgba(255, 255, 255, 1);
+}
+
+.promo__container {
+  width: 1140px;
+}
+
+.promo__info {
+  padding-top: 200px;
+}
+
+.promo__circle {
+  width: 36px;
+  height: 36px;
+  background-color: #ffa501;
+  position: relative;
+  text-align: center;
+  border-radius: 50%;
+}
+
+.promo__circle::before {
+  content: 'Меня зовут Александра Смит';
+  font-family: 'Poppins';
+  font-style: normal;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0em;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(0%, -50%);
+  color: black;
+  white-space: nowrap;
+}
+
+.promo__title {
+  font-family: 'Poppins';
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 60px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #000;
+  margin-bottom: 25px;
+  width: 532px;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+}
+
+.promo__buttons {
+  display: flex;
+}
+
+.promo__button {
+  width: 135px;
+  height: 45px;
+  border: 0px;
+  padding: 12px 25px;
+  color: #000;
+  font-family: 'Poppins';
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 21px;
+  letter-spacing: 0em;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.promo__buttons_active {
+  background-color: #ffa501;
+  box-shadow: 0px 4px 4px 0px #00000026;
+}
+
+.hamburger {
+  padding: 20px 30px 0px 0px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  align-items: flex-end;
+}
+
+.hamburger__element {
+  width: 30px;
+  height: 3px;
+  background-color: #151812;
+}
+
+.hamburger__element:nth-child(2) {
+  width: 36px;
+}

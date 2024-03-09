@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="/src/css/index.css" />
+    <script src="/src/js/index.js" type="module"></script>
+  </head>
+  <body>
+    <section class="promo" id="promo">
+      <div class="overplay" id="overplay"></div>
+      <div class="promo__menu" id="menu">
+        <div class="menu__close-button" id="close-button">
+          <img src="/src/img/Close.svg" style="width: 29px; height: 29px" />
+        </div>
+        <ul class="menu__items">
+          <li class="menu__item">
+            <div class="ellipse"></div>
+            <a href="#promo" class="menu__item-title">ПРО МЕНЯ</a>
+          </li>
+          <li class="menu__item">
+            <div class="ellipse"></div>
+            <a href="#benefit" class="menu__item-title">МОЙ ОПЫТ</a>
+          </li>
+          <li class="menu__item">
+            <div class="ellipse"></div>
+            <a href="#contacts" class="menu__item-title">КОНТАКТЫ</a>
+          </li>
+        </ul>
+      </div>
+      <div class="social" id="social">
+        <div class="instagram">
+          <a href="https://www.instagram.com">
+            <img src="/src/img/Instagram.svg" class="social__icon" />
+          </a>
+        </div>
+        <div class="facebook">
+          <a href="https://www.facebook.com">
+            <img src="/src/img/Facebook.svg" class="social__icon" />
+          </a>
+        </div>
+        <div class="git-hub">
+          <a href="https://github.com">
+            <img src="/src/img/Github.svg" class="social__icon" />
+          </a>
+        </div>
+        <div class="social__line"></div>
+        <div class="social__title">Социальные сети</div>
+      </div>
+      <div class="container promo__container">
+        <div class="promo__info">
+          <div class="promo__circle"></div>
+          <h1 class="promo__title">Я web-разработчик из города Москва</h1>
+          <div class="promo__buttons">
+            <button class="promo__button promo__buttons_active">Портфолио</button>
+            <button class="promo__button">Про меня</button>
+          </div>
+        </div>
+      </div>
+      <div class="hamburger" id="hamburger">
+        <div class="hamburger__element"></div>
+        <div class="hamburger__element"></div>
+        <div class="hamburger__element"></div>
+      </div>
+    </section>
+    <section class="benefit" id="benefit">
+      <div class="container benefit__container">
+        <div class="benefit__circle"></div>
+        <div class="benefit__title">Чем я буду полезна</div>
+        <div class="line"></div>
+        <div class="benefit__resume-section">
+          <div class="benefit__resume-group">
+            <div class="benefit__resume-group-name">Образование</div>
+            <div class="resume__cards-section">
+              <div class="resume__card">
+                <div class="resume_information">
+                  <div class="circle"></div>
+                  <div>
+                    <div class="resume__title">МГТУ им. Н. Э. Баумана</div>
+                    <div class="resume__subtitle">Диплом магистра | Москва (2014-2020)</div>
+                  </div>
+                </div>
+                <div class="resume__description">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                  incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet,
+                  consectetur adipiscing elit, sed do eiusmo.
+                </div>
+              </div>
+              <div class="resume__card">
+                <div class="resume_information">
+                  <div class="circle"></div>
+                  <div>
+                    <div class="resume__title">Udemy</div>
+                    <div class="resume__subtitle">Курсы по Web-разработке</div>
+                  </div>
+                </div>
+                <div class="resume__description">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                  incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet,
+                  consectetur adipiscing elit, sed do eiusmo.
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="benefit__resume-group">
+            <div class="benefit__resume-group-name">Опыт работы</div>
+            <div class="resume__cards-section">
+              <div class="resume__card">
+                <div class="resume_information">
+                  <div class="circle"></div>
+                  <div>
+                    <div class="resume__title">Front-End Developer</div>
+                    <div class="resume__subtitle">EPAM | Москва (2018-2019)</div>
+                  </div>
+                </div>
+                <div class="resume__description">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                  incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet,
+                  consectetur adipiscing elit, sed do eiusmo.
+                </div>
+              </div>
+              <div class="resume__card">
+                <div class="resume_information">
+                  <div class="circle"></div>
+                  <div>
+                    <div class="resume__title">UI/UX Designer</div>
+                    <div class="resume__subtitle">Squad Team | Москва (2018)</div>
+                  </div>
+                </div>
+                <div class="resume__description">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                  incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet,
+                  consectetur adipiscing elit, sed do eiusmo.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="contacts" id="contacts">
+      <div class="container contacts__container">
+        <div class="contacts__photo">
+          <img class="contacts__img" src="/src/img/Photo.png" />
+        </div>
+        <div class="contacts__info">
+          <!-- <div class="contacts__title">Контакты</div>
+           -->
+          <div class="contacts__circle contacts__title"></div>
+          <div class="contacts__subtitle">Свяжись со мной</div>
+          <div class="contact-icon__title">Любым удобным для вас способом</div>
+          <ul class="contact-item__icons">
+            <li class="contact-icon">
+              <a href="https://www.facebook.com/">
+                <img src="/src/img/Facebook.svg" />
+              </a>
+            </li>
+            <li class="contact-icon">
+              <a href="https://web.telegram.org/">
+                <img src="/src/img/Telegram.svg" />
+              </a>
+            </li>
+            <li class="contact-icon">
+              <a href="https://www.instagram.com/">
+                <img src="/src/img/Instagram.svg" />
+              </a>
+            </li>
+          </ul>
+          <div class="contacts__form-label">Или оставьте ваши данные и я сама вам напишу:</div>
+          <form class="contacts__profile" id="contacts-form">
+            <div class="profile-info">
+              <div class="user__info">
+                <label for="name" class="form__lable">Ваше имя</label>
+                <input
+                  type="text"
+                  name="user-name"
+                  id="name"
+                  class="contacts__profile-input"
+                  value="Иван"
+                />
+              </div>
+              <div class="user__info">
+                <label for="email" class="form__lable">Ваша почта</label>
+                <input type="text" name="user-email" id="email" class="contacts__profile-input" />
+              </div>
+            </div>
+            <label for="comment" class="form__lable">Ваше сообщение</label>
+            <textarea name="comment" id="comment" class="contacts__comment"></textarea>
+            <button type="submit" class="form-button">Отправить сообщение</button>
+          </form>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
