@@ -1,6 +1,7 @@
 @import url('./promo.css');
 @import url('./benefit.css');
 @import url('./contacts.css');
+@import url('/src/font/stylesheet.css');
 
 * {
   margin: 0;
