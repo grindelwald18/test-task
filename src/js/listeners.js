@@ -1,4 +1,5 @@
-import {handlerClickHamburger, handlerSubmitForm, handlerCloseMenu} from './handlers.js';
+import {handlerClickHamburger, handlerCloseMenu} from './handlers.js';
+import {handlerSubmitForm} from './contact-form.js';
 
 const form = document.querySelector('#contacts-form');
 const hamburgerElement = document.querySelector('#hamburger');

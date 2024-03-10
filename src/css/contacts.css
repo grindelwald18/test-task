@@ -164,3 +164,37 @@
   border: 0px;
   background-color: #ffa501;
 }
+
+@media (max-width: 320px) {
+  .contacts__photo {
+    display: none;
+  }
+
+  .contacts__circle {
+    margin-bottom: 20px;
+  }
+
+  .contacts__info {
+    margin: 0px 10px;
+  }
+
+  .contact-icon__title {
+    width: 300px;
+  }
+  .contacts__form-label {
+    width: 300px;
+  }
+
+  .profile-info {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .contacts__profile-input {
+    width: 300px;
+  }
+
+  .form-button {
+    margin: auto;
+  }
+}

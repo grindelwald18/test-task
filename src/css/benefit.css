@@ -168,3 +168,34 @@
   left: 40%;
   top: 40%;
 }
+
+@media (max-width: 320px) {
+  .benefit__title {
+    font-size: 24px;
+    line-height: 36px;
+    margin-bottom: 15px;
+  }
+
+  .benefit__resume-section {
+    margin: 40px 8px 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+  }
+
+  .benefit__resume-group-name {
+    margin-bottom: 45px;
+  }
+
+  .resume__cards-section {
+    gap: 10px;
+  }
+
+  .resume__card {
+    padding: 0;
+  }
+
+  .resume__description {
+    width: 250px;
+  }
+}
